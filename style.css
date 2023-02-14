@@ -47,6 +47,13 @@ to this section's matching END comment to see page-specific styles.
     format("opentype");
 }
 
+@font-face {
+  font-family: "sneakers-pro", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
 
 /* Navigation grid */
 .footer {
@@ -86,7 +93,7 @@ END Glitch hello-app default styles
 ******************************************************************************/
 
 body {
-  font-family: HK Grotesk;
+  font-family: "sneakers-pro";
   background-color: var(--color-bg);
 }
 
@@ -95,7 +102,7 @@ body {
   min-height: var(--wrapper-height);
   display: grid;
   place-items: center;
-  margin: 0 1rem;
+  margin: 0 0.5rem;
 }
 .content {
   display: flex;
@@ -107,7 +114,7 @@ body {
 /* Very light scaling for our illustration */
 .title {
   color: #d054a4;
-  font-family: HK Grotesk;
+  font-family: "sneakers-pro";
   font-style: normal;
   font-weight: bold;
   font-size: 100px;

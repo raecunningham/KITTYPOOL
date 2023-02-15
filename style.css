@@ -58,7 +58,6 @@ to this section's matching END comment to see page-specific styles.
 /* Navigation grid */
 .footer {
   display: flex;
-  justify-content: space-between;
   margin: 1rem auto 0;
   padding: 1rem 0 0.75rem 0;
   width: 100%;
@@ -101,7 +100,6 @@ body {
 .wrapper {
   min-height: var(--wrapper-height);
   display: grid;
-  place-items: center;
   margin: 0 0.1rem;
 }
 .content {
@@ -112,26 +110,26 @@ body {
 }
 
 /* Very light scaling for our illustration */
+.illustration {
+  max-width: 80%;
+  max-height: var(--image-max-width);
+  margin-bottom: 1vw;
+  position: relative;
+  padding: 1vw 1vw 1vw 1vw
+}
+
+/* Very light scaling for our illustration */
 .title {
   color: #d054a4;
   font-family: "sneakers-pro";
   font-style: normal;
   font-weight: bold;
+  position: relative;
+  text-align: left;
+  padding-left: 5vw;
   font-size: calc(50px + 4vw);
   line-height: 105%;
-  padding-top: calc(50px + 25vw);
   
-}
-
-/* Very light scaling for our illustration */
-.illustration {
-  max-width: 80%;
-  max-height: var(--image-max-width);
-  margin-top: var(--image-margin);
-  margin-bottom: 1vw;
-  position: fixed;
-  top: 0;
-  left: 2vw;
 }
 
 /* Instructions */

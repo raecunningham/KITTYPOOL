@@ -25,3 +25,7 @@ if (btn) {
 This is a comment that can span multiple lines 
 - use comments to make your own notes!
 */
+
+let titleText = Math.floor(Math.random() * 3);
+
+console.log(titleText);

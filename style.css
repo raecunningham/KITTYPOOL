@@ -148,6 +148,11 @@ body {
     border-width: 5px;
     border-color: #d054a4;
   
+  
+}
+
+.socialBreak {
+  padding: 2vw;
 }
 
 /* Button - Add it from the README instructions */
@@ -202,7 +207,7 @@ h2 {
     border-style: solid;
     border-width: 5px;
     border-color: #d054a4;
-    padding: 0vw 2vw 0vw 2vw;
+    padding: 0vw 2vw 2vw 2vw;
   }
   
   .title {

@@ -117,10 +117,10 @@ body {
   font-family: "sneakers-pro";
   font-style: normal;
   font-weight: bold;
-  font-size: 8.5vw;
+  font-size: calc(50px + 4vw);
   line-height: 105%;
-  margin: 0.5vw;
-  padding: 300px 3vw 3vw 3vw;
+  padding-top: calc(50px + 5vw);
+  
 }
 
 /* Very light scaling for our illustration */

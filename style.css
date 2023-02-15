@@ -151,10 +151,6 @@ body {
   
 }
 
-.socialBreak {
-  padding: 2vw;
-}
-
 /* Button - Add it from the README instructions */
 button,
 input {
@@ -223,6 +219,26 @@ h2 {
     width: 60%;
   }
   
+  .socialsPadding {
+    padding: 2vw;
+  }
+  
+  
+}
+
+@media only screen and (min-width: 1001px) {
+  /* For mobile phones: */
+
+  .socialBreak {
+    padding: 2vw;
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  
+  .socialsPadding {
+    padding: 2vw;
+  }
   
 }
 

@@ -148,6 +148,15 @@ body {
     border-width: 5px;
     border-color: #d054a4;
   
+}
+
+.poster {
+  max-width: 70%;
+  margin-bottom: 1vw;
+  position: relative;
+  padding: 1vw 1vw 1vw 5vw;
+  display: block;
+  margin-right: auto;
   
 }
 

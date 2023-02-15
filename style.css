@@ -114,7 +114,10 @@ body {
   max-height: var(--image-max-width);
   margin-bottom: 1vw;
   position: relative;
-  padding: 1vw 1vw 1vw 1vw
+  padding: 1vw 1vw 1vw 1vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Very light scaling for our illustration */
@@ -181,9 +184,15 @@ h2 {
   /* For mobile phones: */
   .wrapper {
     min-height: var(--wrapper-height);
-    place-items: center;
     display: grid;
-    margin: 0 0.1rem;
+    place-items: center;
+    margin: 0 1rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   
   .tm-widget {
@@ -195,8 +204,19 @@ h2 {
     padding: 0vw 2vw 0vw 2vw;
   }
   
-  #image {
-      max-width: 80%;
+  .title {
+    text-align: center;
+    padding: 1vw 0vw 1vw 0vw;
+    font-size: calc(40px + 3vw);
   }
+  
+  .illustration {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  
+  
 }
 

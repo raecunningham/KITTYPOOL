@@ -150,16 +150,6 @@ body {
   
 }
 
-.poster {
-  max-width: 70%;
-  margin-bottom: 1vw;
-  position: relative;
-  padding: 1vw 1vw 1vw 5vw;
-  display: block;
-  margin-right: auto;
-  
-}
-
 /* Button - Add it from the README instructions */
 button,
 input {
@@ -232,6 +222,14 @@ h2 {
     padding: 2vw;
   }
   
+  .poster {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 12.5vw;
+}
+  
   
 }
 
@@ -248,6 +246,15 @@ h2 {
   .socialsPadding {
     padding: 2vw;
   }
+  
+  .poster {
+    max-width: 60%;
+    margin-bottom: 1vw;
+    position: relative;
+    padding: 1vw 1vw 1vw 5vw;
+    display: block;
+    margin-right: auto;
+}
   
 }
 
